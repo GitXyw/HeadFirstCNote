@@ -14,7 +14,7 @@ void happy_birthday(turtle *t)
 
 int main()
 {
-	turtle myrtle = {"Myrtle", "Leatherback sea turtle", 100};
+	turtle myrtle = {"Myrtle", "Leatherback sea turtle", 99};
 	happy_birthday(& myrtle);
 	printf("%s's age is now %d\n", myrtle.name, myrtle.age);
 	return 0;
